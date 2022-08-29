@@ -1,10 +1,7 @@
-**
-Code repo for code used in "Proteomic Characterization of Acute Kidney Injury in Patients Hospitalized with SARS-CoV2 Infection"
-**
+## <b>"Proteomic Characterization of Acute Kidney Injury in Patients Hospitalized with SARS-CoV2 Infection"</b>
+###### <b>Code repo</b>
 
-**
-Files:
-**
+<b>Files:</b>
 
 post_discharge_eGFR.R : Find proteins associated with post-discharge eGFR
 
