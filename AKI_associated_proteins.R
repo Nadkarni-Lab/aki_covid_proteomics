@@ -1,3 +1,7 @@
+####
+## Find proteins associated with in-hospital AKI
+####
+
 setwd("/Users/iparanjpe/Documents/mount_sinai_research/covid19/biobank_somalogic/")
 library(limma)
 
