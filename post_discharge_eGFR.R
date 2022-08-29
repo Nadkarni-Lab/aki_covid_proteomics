@@ -12,19 +12,22 @@ setwd(getwd())
 
 
 #########  ANALYZE  #######################
+
+### Load eGFR measurements
 pheno <- readRDS("pheno_df_egfr_merged_alllabs.RDS")
 
-##renamed for publication paper on github
+## Load clinical covariates
 clinicalcov = readRDS("Biobank_clinical_data_table_by_RNA_sample.RDS")
 
 clincov = data.frame(clinicalcov$Subject_ID,clinicalcov$Event_Date,clinicalcov$Encounter_Patient_Class)
 
+### Change date format
 pheno$date <-lubridate::as_date(pheno$Event_Date)
 
-###use egfr recording only on or after somalogic was performed. 
+### Select somalogic date
 pheno = pheno%>% group_by(Subject_ID) %>% filter(date>=chosen_somalogic_date)
 
-
+#### Plot graph
 pdf("plot_egfr.pdf", height = 100, width = 500)
 p <- ggplot(data = pheno, aes(x = date, y = eGFR, group = Subject_ID, col = Subject_ID))
 p + geom_line()
