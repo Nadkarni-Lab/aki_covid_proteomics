@@ -3,11 +3,8 @@
 
 <b>Files:</b>
 
-post_discharge_eGFR.R : Find proteins associated with post-discharge eGFR
-
-extract_eGFR_measurements.R :  Get all eGFR measurements taken after discharge for patients in the cohort.
-
-AKI_associated_proteins.R: Find proteins associated with in-hospital AKI. Uses Limma R package
-
-CreateProteinInteractionNetwork.ipynb: Create protein-protein interaction network for AKI associated proteins. 
-<t> This file uses the annotation in Suhre_somascan.txt </t>
+- <i>post_discharge_eGFR.R</i> : Find proteins associated with post-discharge eGFR
+- <i>extract_eGFR_measurements.R</i> :  Get all eGFR measurements taken after discharge for patients in the cohort.
+- <i>AKI_associated_proteins.R</i>: Find proteins associated with in-hospital AKI. Uses Limma R package
+- <i>CreateProteinInteractionNetwork.ipynb</i>: Create protein-protein interaction network for AKI associated proteins. 
+  - This file uses the annotations in Suhre_somascan.txt and somalogic_interactions.txt files
