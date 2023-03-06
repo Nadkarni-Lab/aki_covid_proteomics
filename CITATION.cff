@@ -2,13 +2,16 @@ Our Code repo can be cited using:
 cff-version: 1.1.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Paranjpe
-    given-names: Ishan
-  - family-names: Jayaraman
-    given-names: Pushkala
-    orcid: https://orcid.org/0000-0003-1159-8354
-  - family-names: Nadkarni
-    given-names: Girish
+Authors. Ishan Paranjpe*, Pushkala Jayaraman*, Chen-Yang Su, Sirui Zhou, Steven Chen, Ryan Thompson^, Diane Marie Del Valle^, Ephraim Kenigsberg, Shan Zhao, Suraj Jaladanki, Kumardeep Chaudhary, Steven Ascolillo, Akhil Vaid, Edgar Gonzalez-Kozlova, Justin Kauffman, Arvind Kumar, Manish Paranjpe, Ross O Hagan, Samir Kamat, Faris F. Gulamali, Hui Xie13, Joceyln Harris13, Manishkumar Patel13, Kimberly Argueta, Craig Batchelor, Kai Nie, Sergio Dellepiane, Leisha Scott, Matthew A Levin, John Cijiang He, Mayte Suarez-Farinas, Steven G Coca, Lili Chan, Evren U Azeloglu, Eric Schadt, Noam Beckmann, Sacha Gnjatic, Miram Merad, Seunghee Kim-Schulze, Brent Richards, Benjamin S Glicksberg, Alexander W Charney, Girish N Nadkarni
+
+*, ^ These authors contributed equally to the work
+ 
+*Corresponding Author:
+Girish N Nadkarni, MD
+Department of Medicine, Division of Nephrology
+Icahn School of Medicine at Mount Sinai, New York, NY, USA
+girish.nadkarni@mountsinai.org
+
 title: Nadkarni-Lab/aki_covid_proteomics: AKI Proteomics Code v0.1.0
 version: v0.1.0
 date-released: 2023-03-06
