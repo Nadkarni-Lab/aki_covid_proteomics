@@ -11,5 +11,6 @@ authors:
     given-names: "Girish"
     orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Nadkarni-Lab/aki_covid_proteomics: AKI Proteomics Code v0.1.0"
-version: "v0.1.0"
-date-released: "2023-03-06"
+version: v0.1.0
+date-released: 2023-03-06
+url: "https://github.com/Nadkarni-Lab/aki_covid_proteomics/releases/tag/v0.1.0"
