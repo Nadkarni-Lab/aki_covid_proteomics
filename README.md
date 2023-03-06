@@ -14,3 +14,6 @@ Ishan Paranjpe, Pushkala Jayaraman, Chen-Yang Su, Sirui Zhou, Steven Chen, Ryan 
 - Data Files: <i>Suhre_somascan.txt</i> and <i>somalogic_interactions.txt</i>
 - <i>CreateProteinInteractionNetwork.ipynb</i>: Create protein-protein interaction network for AKI associated proteins. 
   - This file uses the annotations in Suhre_somascan.txt and somalogic_interactions.txt files
+  
+## <b> Code release version:</b>
+https://doi.org/10.5281/zenodo.7702966
